@@ -4,10 +4,13 @@ using namespace std;
 int main()
 {
     int a,b;
-    cout<< "input 2 integer a and b"<<endl;
+    int c,d;
+    cout<< "input 2 integer a,b,c and d "<<endl;
     
     cin>>a;
     cin>>b;
+    cin>>c;
+    cin>>d;
 
-    cout<<a>b;
+    cout<<(a>b && c>d);
 }
